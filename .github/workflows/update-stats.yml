@@ -1,0 +1,23 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 매일 자정(UTC) 자동 갱신
+  workflow_dispatch:        # Actions 탭에서 수동 실행도 가능
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats SVG
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=jooyeap&show_icons=true&theme=default" -o github-stats.svg
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats SVG" && git push)
