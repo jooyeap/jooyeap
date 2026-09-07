@@ -13,7 +13,17 @@ jobs:
 
       - name: Fetch stats SVG
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=jooyeap&show_icons=true&theme=default" -o github-stats.svg
+          curl -s "https://github-readme-stats.vercel.app/api?username=jooyeap&show_icons=true&theme=default" -o github-stats.svg.new
+
+      - name: Validate SVG before overwriting
+        run: |
+          if head -c 4 github-stats.svg.new | grep -q '<'; then
+            mv github-stats.svg.new github-stats.svg
+            echo "Valid SVG fetched, updated."
+          else
+            echo "::warning::Fetched content is not valid SVG (likely rate-limited). Keeping previous file."
+            rm -f github-stats.svg.new
+          fi
 
       - name: Commit and push if changed
         run: |
