@@ -11,8 +11,7 @@
 - 🔐 IDOR/권한 우회 취약점을 찾아 고치는 보안 중심 개발을 지향합니다
 - 🏗️ Spring Boot 기반 백엔드와 Next.js 기반 프론트엔드를 함께 다룰 수 있습니다
 - 📚 현재 취업을 준비하며 팀 프로젝트를 포트폴리오로 정리 중입니다
-- 📫 연락처: your.email@example.com  <!-- TODO: 실제 이메일로 수정 -->
-- 📝 블로그: https://velog.io/@your-id  <!-- TODO: 블로그 링크 수정/삭제 -->
+- 📫 연락처: eyoung071212@gmail.com
 
 <br>
 
