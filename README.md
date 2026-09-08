@@ -40,11 +40,3 @@
 | ⚖️ 의사결정 | 마감 임박 시 위임전결 자동화를 리스크 기준으로 스코프 제외, 코드는 주석 보존 |
 
 <!-- TODO: v3 시연 영상 녹화 후 추가 -->
-
-<br>
-
-## GitHub Stats
-
-<p align="center">
-  <img src="./github-stats.svg" />
-</p>
