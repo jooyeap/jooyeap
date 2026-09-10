@@ -26,7 +26,7 @@
 
 | 버전 | 스택 | 링크 |
 |---|---|---|
-| v3 | Spring Boot 3 + Next.js + JWT + AI | [GitHub](https://github.com/yoonguri988/spring-breeze-erp/tree/main/spring-breeze-erp-v3) |
+| v3 | Spring Boot 3 + Next.js + JWT + AI | [GitHub](https://github.com/jooyeap/SBErp_v3) · [영상](https://www.youtube.com/watch?v=do1A-hIby4U) |
 | v2 | Spring Boot + Thymeleaf | [GitHub](https://github.com/yoonguri988/spring-breeze-erp/tree/main/spring-breeze-erp-v2) |
 | v1 | Spring + MyBatis | [GitHub](https://github.com/yoonguri988/spring-breeze-erp/tree/main/spring-breeze-erp-v1) · [영상](https://youtu.be/JktFg-zR71I) |
 
