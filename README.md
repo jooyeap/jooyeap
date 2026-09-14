@@ -20,14 +20,14 @@
 
 <br>
 
-## Project — Spring-Breeze-ERP
+## Project — SBerp
 
 4인 팀 ERP 시스템 · **전자결재 모듈**(ApprForm/ApprDoc/ApprLine) 단독 개발
 
 | 버전 | 스택 | 링크 |
 |---|---|---|
 | v3 | Spring Boot 3 + Next.js + JWT + AI | [GitHub](https://github.com/jooyeap/SBErp_v3) · [배포링크](http://sberpjy.duckdns.org) · [영상](https://www.youtube.com/watch?v=do1A-hIby4U)|
-| v2 | Spring Boot + Thymeleaf | [GitHub](https://github.com/jooyeap/SBErp_v2) · [영상](https://www.youtube.com/watch?v=B9whOtAjBmo)|
+| v2 | Spring Boot + Thymeleaf | [GitHub](https://github.com/jooyeap/SBErp_v2) |
 | v1 | Spring + MyBatis | [GitHub](https://github.com/jooyeap/SBErp_v1) · [영상](https://youtu.be/JktFg-zR71I) |
 
 **핵심 성과**
@@ -38,8 +38,6 @@
 | 🐞 트러블슈팅 | 결재선 미활성화 버그를 로그 분석으로 추적, `activateNextLine` 분리로 결함률 0% |
 | 🤖 AI 연동 | OpenAI API로 자연어 입력 → 결재 양식 JSON 자동 생성, 프론트엔드 필드 검증으로 오류 방지 |
 | ⚖️ 의사결정 | 마감 임박 시 위임전결 자동화를 리스크 기준으로 스코프 제외, 코드는 주석 보존 |
-
-<!-- TODO: v3 시연 영상 녹화 후 추가 -->
 
 <br>
 
