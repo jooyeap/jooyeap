@@ -4,7 +4,12 @@
 <p align="center">
   <a href="mailto:eyoung071212@gmail.com"><img src="https://img.shields.io/badge/Email-eyoung071212%40gmail.com-informational?style=flat"/></a>
   <a href="https://github.com/jooyeap"><img src="https://img.shields.io/badge/GitHub-jooyeap-181717?style=flat&logo=github&logoColor=white"/></a>
-</p>
+</p><br>
+
+About Me
+🔐 보안과 안정성을 고려한 백엔드 설계에 관심이 많습니다
+🔭 현재 gitalog(음악 게임 기록 관리 서비스) 개발 중
+🎯 백엔드 개발자로 취업을 준비하며, 지난 프로젝트들을 포트폴리오로 정리하고 있습니다
 
 <br>
 
