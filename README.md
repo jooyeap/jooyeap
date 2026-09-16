@@ -32,7 +32,7 @@ About Me<br>
 | 버전 | 스택 | 링크 |
 |---|---|---|
 | v3 | Spring Boot 3 + Next.js + JWT + AI | [GitHub](https://github.com/jooyeap/SBErp_v3) · [배포링크](http://sberpjy.duckdns.org) · [영상](https://www.youtube.com/watch?v=do1A-hIby4U)|
-| v2 | Spring Boot + Thymeleaf | [GitHub](https://github.com/jooyeap/SBErp_v2) |
+| v2 | Spring Boot + Thymeleaf | [GitHub](https://github.com/jooyeap/SBErp_v2) · [영상]([https://youtu.be/JktFg-zR71I](https://www.youtube.com/watch?v=B9whOtAjBmo)) |
 | v1 | Spring + MyBatis | [GitHub](https://github.com/jooyeap/SBErp_v1) · [영상](https://youtu.be/JktFg-zR71I) |
 
 **핵심 성과**
